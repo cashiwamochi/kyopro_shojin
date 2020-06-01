@@ -22,7 +22,7 @@ int main() {
 	}
 	std::sort(inputs.begin(), inputs.end());
 	for (int i = 0; i < n; ++i) {
-		ans *= inputs[i];
+		//ans *= inputs[i];
 		if (ans > limit/inputs[i]) {
 			printf("-1\n");
 			return 0;
